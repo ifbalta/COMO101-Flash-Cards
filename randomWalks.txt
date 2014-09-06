@@ -1,0 +1,16 @@
+function X = randomWalks(x1)
+N = 1000;
+X = zeros(N,1);
+a = something...;
+b = something...;
+X(1) = x1;
+for i = 2:N+1
+	u = (b-a)*rand() + a;
+	if u < (some probability)
+		X(i) = u;
+	elseif < (another probability)
+		X(i) = u;
+	else
+		X(i) = u;
+	end
+end

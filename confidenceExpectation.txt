@@ -1,0 +1,13 @@
+function interval = confidenceExpectation()
+N = 1000;
+Y = zeros(N,1);
+a = something...;
+b = something...;
+for i = 1:N
+	Y(i) = (b-a)*rand() + a;
+end
+expectation = mean(Y);
+varZ = var(Y)/N;
+L = expectation - 2*sqrt(varZ);
+U = expectation + 2*sqrt(varZ);
+interval = [L U];

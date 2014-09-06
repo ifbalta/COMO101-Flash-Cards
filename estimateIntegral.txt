@@ -1,0 +1,12 @@
+function integral = estimateIntegral()
+N = 1000;
+count = 0;
+a = something...;
+b = something...;
+for i = 1:N
+	x = (b-a)*rand() + a;
+	Y = g(x)%function
+	total = total + Y;
+end
+expectation = total/N;
+integral = (b-a)*expectation;

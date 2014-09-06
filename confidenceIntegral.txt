@@ -1,0 +1,14 @@
+function interval = confidenceIntegral()
+N = 1000;
+Y = zeros(N,1);
+a = something...;
+b = something...;
+for i = 1:N
+	x = (b-a)*rand() + a;
+	Y(i) = g(x)%function
+end
+integral = (b-a)*mean(Y);
+varZ = var(Y)/N;
+L = integral - 2*sqrt(varZ);
+U = integral + 2*sqrt(varZ);
+interval = [L U];

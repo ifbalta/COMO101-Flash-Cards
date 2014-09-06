@@ -1,0 +1,12 @@
+function prob = estimateProbability()
+N = 1000;
+a = something...;
+b = something...;
+count = 0;
+for i = 1:N
+	u = (b-a)*rand() + a;
+	if(something)
+		count = count + u;
+	end
+end
+prob = count/N;

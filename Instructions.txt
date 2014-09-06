@@ -1,0 +1,16 @@
+-----------Warning-----------
+Click 'Generate Question' before 
+clicking on 'Check Answer'
+or the program will shut down.
+This is a glitch, I know. 
+-----------Warning-----------
+
+This is where you type your answer.
+Go ahead and click on it and type.
+
+I haven't built a correction system, 
+so when it comes to scoring, 
+you have to do it manually.
+
+This is only Version 1! 
+Be patient with me :D
